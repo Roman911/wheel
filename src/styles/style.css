@@ -293,6 +293,7 @@ body {
     position: fixed;
     left: 0;
     top: 0;
+    bottom: 0;
     display: block;
     width: 100%;
     height: calc(var(--vh, 1vh)* 100);
@@ -529,7 +530,7 @@ body {
     }
 
     .title {
-        margin: 70px auto 220px;
+        margin: 70px auto 190px;
         font-size: 34px;
     }
 
@@ -596,7 +597,7 @@ body {
 
 @media (max-height: 800px) and (max-width: 400px) {
     .title {
-        margin: 40px auto 100px;
+        margin: 40px auto 90px;
         font-size: 34px;
     }
 }
