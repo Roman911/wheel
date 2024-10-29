@@ -289,6 +289,13 @@ body {
     background-image: url(../assets/bg.jpg);
     background-position: center center;
     background-size: cover;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: calc(var(--vh, 1vh)* 100);
 }
 
 #app {
