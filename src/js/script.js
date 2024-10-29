@@ -36,9 +36,4 @@ $(document).ready(() => {
             $('.wheel__text').css('font-size', '10px');
         } else $('.wheel__text').css('font-size', '15px');
     }
-
-    window.addEventListener("scroll", event => {
-        event.preventDefault();
-        window.scrollTo(0, 0);
-    });
 })
