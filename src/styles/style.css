@@ -277,26 +277,16 @@
     }
 }
 
-html, body {
-    position: relative;
-    min-height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    margin: 0;
-}
-
 body {
     background-image: url(../assets/bg.jpg);
-    background-position: center center;
     background-size: cover;
-
     position: fixed;
     left: 0;
     top: 0;
     bottom: 0;
     display: block;
     width: 100%;
-    height: calc(var(--vh, 1vh)* 100);
+    height: calc(var(--vh, 1vh)* 90);
 }
 
 #app {
