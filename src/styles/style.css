@@ -278,15 +278,12 @@
 }
 
 body {
+    height: 100vh;
+    margin: 0;
     background-image: url(../assets/bg.jpg);
     background-size: cover;
-    position: fixed;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    display: block;
-    width: 100%;
-    height: calc(var(--vh, 1vh)* 90);
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 #app {
@@ -513,6 +510,14 @@ body {
     body {
         margin: 0;
         background-image: url(../assets/bg-small.jpg);
+
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        height: calc(var(--vh, 1vh)* 100);
     }
 
     .logo img {
@@ -522,12 +527,6 @@ body {
     .title {
         margin: 70px auto 190px;
         font-size: 34px;
-    }
-
-    .luckywheel {
-        position: fixed;
-        top: 55%;
-        transform: translateY(-50%);
     }
 
     .image {
