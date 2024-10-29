@@ -534,6 +534,12 @@ body {
         font-size: 34px;
     }
 
+    .luckywheel {
+        position: fixed;
+        top: 55%;
+        transform: translateY(-50%);
+    }
+
     .image {
         display: block;
         position: absolute;
