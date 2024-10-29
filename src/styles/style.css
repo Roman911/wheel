@@ -289,26 +289,6 @@ body {
     background-image: url(../assets/bg.jpg);
     background-position: center center;
     background-size: cover;
-
-    max-height: 20rem;
-    overflow-x: hidden;
-    overflow-y: auto;
-    margin-right: 0.25rem;
-
-    ::-webkit-scrollbar-track {
-        border-radius: 0.125rem;
-        background-color: lightgray;
-    }
-
-    ::-webkit-scrollbar {
-        width: 0.25rem;
-        border-radius: 0.125rem;
-    }
-
-    ::-webkit-scrollbar-thumb {
-        border-radius: 0.125rem;
-        background-color: gray;
-    }
 }
 
 #app {
