@@ -50,7 +50,7 @@ $(document).ready(() => {
     $('.modal__close').on('click', closeModal)
 
     $('#regBtn').on('click', function () {
-        const link = "https://afftrafi.co/ktVmDV?";
+        const link = "";
         const sPageURL = window.location.search.substring(1);
         const mainLink = link + "&" + sPageURL;
         window.location.href = mainLink;
